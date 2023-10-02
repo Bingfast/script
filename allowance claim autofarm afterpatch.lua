@@ -1,3 +1,5 @@
+-- MUST BE NEAR ARMORY ATMS THEN SAY "bingcool" ALSO BE IN SMALL SERVERS UNDER 10 AT DEFAULT
+
 getgenv().work = true
 
 local player = game.Players.LocalPlayer
