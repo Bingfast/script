@@ -118,7 +118,7 @@ player.Chatted:Connect(function(msg)
             if getgenv().work == true then
                 if player.Character.Humanoid.Health > 0 then
                     local playerCount = #game.Players:GetPlayers()
-                    if playerCount > 10 then
+                    if playerCount >= 10 then
                         game.Players.LocalPlayer:Kick("Game too full")
                     end
                     local allowancePath = game:GetService("Players")[user].PlayerGui.CoreGUI.StatsFrame.Frame2.Frame.Container.Allowance.Amt.Text
